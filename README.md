@@ -57,7 +57,7 @@ az vm image list --all --publisher Canonical
 
 
 # adding from local repo to GitHub:
-
+``` shell
 git init -b main
 git init && git symbolic-ref HEAD refs/heads/main
 git status
@@ -66,4 +66,5 @@ git commit -m "First commit"
 git remote add origin https://github.com/nesibf/Azure-Infra
 git remote -v
 git push -u origin main
+```
 
